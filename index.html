@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Три эксперта по приготовлению хот-догов — Элла, Маша, Арина">
+  <title>Мастера хот-догов — три эксперта</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HOTDOG DRAGGABLE -->
+  <div id="hotdogEmoji" aria-hidden="true"><img src="котик.png" alt="hotdog"></div>
+  <!-- /HOTDOG DRAGGABLE -->
+  <header class="hero" id="hero">
+    <div class="hero-inner">
+      <h1 class="hero-heading" id="heroHeading">
+        <span class="hero-heading-line" id="waveTitle"></span>
+      </h1>
+      <p class="hero-subtitle">Карты. Деньги. Два хот-дога.</p>
+      <div class="hero-wave-line" aria-hidden="true">
+        <svg class="hero-deco-svg" viewBox="0 0 1000 48" preserveAspectRatio="none">
+          <path
+            class="hero-deco-path"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="3"
+            stroke-linecap="round"
+            d="M0,28 C150,8 350,48 500,28 C650,8 850,48 1000,28"
+          />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="experts" aria-labelledby="experts-heading">
+      <h2 id="experts-heading" class="visually-hidden">Наши эксперты</h2>
+      <div class="cards-grid">
+        <article class="card reveal reveal-card">
+          <div class="card-avatar" aria-hidden="true">Э</div>
+          <h2 class="card-name">Элла</h2>
+          <p class="card-role">Мастер классических хот-догов и выскочка</p>
+          <ul class="card-contacts">
+            <li>
+              <span class="card-icon" aria-hidden="true">📞</span>
+              <a href="tel:+78005553535">+7 (800) 555-35-35</a>
+            </li>
+            <li>
+              <span class="card-icon" aria-hidden="true">📸</span>
+              <a href="https://www.instagram.com/ella_hotdog/" target="_blank" rel="noopener noreferrer">@ella_hotdog</a>
+            </li>
+            <li>
+              <span class="card-icon" aria-hidden="true">✉️</span>
+              <a href="mailto:ella@hotdogs.ru">ella@hotdogs.ru</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card reveal reveal-card">
+          <div class="card-avatar" aria-hidden="true">М</div>
+          <h2 class="card-name">Маша</h2>
+          <p class="card-role">Специалист по авторским соусам и хороший человек</p>
+          <ul class="card-contacts">
+            <li>
+              <span class="card-icon" aria-hidden="true">📞</span>
+              <a href="tel:+79994445566">+7 (999) 444-55-66</a>
+            </li>
+            <li>
+              <span class="card-icon" aria-hidden="true">📸</span>
+              <a href="https://www.instagram.com/masha_sauces/" target="_blank" rel="noopener noreferrer">@masha_sauces</a>
+            </li>
+            <li>
+              <span class="card-icon" aria-hidden="true">✉️</span>
+              <a href="mailto:masha@hotdogs.ru">masha@hotdogs.ru</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card reveal reveal-card">
+          <div class="card-avatar" aria-hidden="true">А</div>
+          <h2 class="card-name">Арина</h2>
+          <p class="card-role">Эксперт по премиальным начинкам по совместительству аферистка</p>
+          <ul class="card-contacts">
+            <li>
+              <span class="card-icon" aria-hidden="true">📞</span>
+              <a href="tel:+79997778899">+7 (999) 777-88-99</a>
+            </li>
+            <li>
+              <span class="card-icon" aria-hidden="true">📸</span>
+              <a href="https://www.instagram.com/arina_toppings/" target="_blank" rel="noopener noreferrer">@arina_toppings</a>
+            </li>
+            <li>
+              <span class="card-icon" aria-hidden="true">✉️</span>
+              <a href="mailto:arina@hotdogs.ru">arina@hotdogs.ru</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="wave-divider" aria-hidden="true">
+      <div class="wave-divider-inner">
+        <div class="wave-stack">
+          <svg class="wave-svg" viewBox="0 0 2000 120" preserveAspectRatio="none">
+            <g class="wave-group wave-group--1">
+              <path fill="currentColor" d="M0,40 C150,80 350,0 500,40 C650,80 850,0 1000,40 L1000,120 L0,120 Z"/>
+              <path fill="currentColor" transform="translate(1000 0)" d="M0,40 C150,80 350,0 500,40 C650,80 850,0 1000,40 L1000,120 L0,120 Z"/>
+            </g>
+          </svg>
+        </div>
+        <div class="wave-stack wave-stack--mid">
+          <svg class="wave-svg" viewBox="0 0 2000 120" preserveAspectRatio="none">
+            <g class="wave-group wave-group--2">
+              <path fill="currentColor" d="M0,40 C150,80 350,0 500,40 C650,80 850,0 1000,40 L1000,120 L0,120 Z"/>
+              <path fill="currentColor" transform="translate(1000 0)" d="M0,40 C150,80 350,0 500,40 C650,80 850,0 1000,40 L1000,120 L0,120 Z"/>
+            </g>
+          </svg>
+        </div>
+        <div class="wave-stack wave-stack--back">
+          <svg class="wave-svg" viewBox="0 0 2000 120" preserveAspectRatio="none">
+            <g class="wave-group wave-group--3">
+              <path fill="currentColor" d="M0,40 C150,80 350,0 500,40 C650,80 850,0 1000,40 L1000,120 L0,120 Z"/>
+              <path fill="currentColor" transform="translate(1000 0)" d="M0,40 C150,80 350,0 500,40 C650,80 850,0 1000,40 L1000,120 L0,120 Z"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="footer-inner">
+        <h2 class="footer-title">Почему именно мы?</h2>
+        <p class="hero-subtitle">Да вы сами посмотрите...</p>
+        <!-- SLIDER: лучшие работы -->
+        <div class="slider-outer">
+
+          <button class="slider-btn slider-btn--prev" id="prevBtn" aria-label="Предыдущий слайд">◀️</button>
+
+          <div class="slider-wrapper">
+            <div class="slider-track" id="sliderTrack">
+              <div class="slide">
+                <img src="photo5.jpg" alt="Лучшая работа 1">
+              </div>
+              <div class="slide">
+                <img src="photo3.jpg" alt="Лучшая работа 2">
+              </div>
+              <div class="slide">
+                <img src="photo4.jpg" alt="Лучшая работа 3">
+              </div>
+              <div class="slide">
+                <img src="photo6.jpg" alt="Лучшая работа 4">
+              </div>
+            </div>
+
+            <div class="slider-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+              <span class="dot" data-index="3"></span>
+            </div>
+          </div>
+
+          <button class="slider-btn slider-btn--next" id="nextBtn" aria-label="Следующий слайд">▶️</button>
+
+        </div>
+        <!-- /SLIDER -->
+
+        <div class="footer-columns">
+          <div class="footer-col reveal reveal-footer">
+            <span class="footer-emoji" aria-hidden="true">🌭</span>
+            <h3 class="footer-col-title">Более 5 лет опыта</h3>
+            <p class="footer-col-text">Каждая из нас прошла путь от стажёра до признанного мастера хот-догов.</p>
+          </div>
+          <div class="footer-col reveal reveal-footer">
+            <span class="footer-emoji" aria-hidden="true">🔥</span>
+            <h3 class="footer-col-title">Только свежие ингредиенты</h3>
+            <p class="footer-col-text">Булочки, сосиски, соусы — всё отборное, от проверенных поставщиков.</p>
+          </div>
+          <div class="footer-col reveal reveal-footer">
+            <span class="footer-emoji" aria-hidden="true">⭐</span>
+            <h3 class="footer-col-title">Сотни довольных клиентов</h3>
+            <p class="footer-col-text">Нас рекомендуют на праздники, корпоративы и уличные фестивали.</p>
+          </div>
+        </div>
+
+        <!-- ORDER FORM -->
+        <div class="order-form-wrapper">
+          <h3 class="order-form-title">Оставить заказ</h3>
+          <form class="order-form" id="orderForm" novalidate>
+
+
+            <div class="form-row">
+              <label class="form-label" for="fieldName">Ваше имя</label>
+              <input class="form-input" type="text" id="fieldName" name="full_name"
+                     placeholder="Имя сссссююддаа" required>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label" for="fieldHotdog">Количество хот-догов (максимальный заказ - 99 штук)</label>
+              <input class="form-input" type="number" id="fieldHotdog" name="hot_dog"
+                     placeholder="1" min="1" max="99" required>
+            </div>
+
+            <div class="form-row form-row--inline">
+              <span class="form-label">Соус</span>
+              <div class="form-toggle-group">
+                <label class="form-toggle">
+                  <input type="radio" name="sauce" value="true" required>
+                  <span class="form-toggle-btn">Да</span>
+                </label>
+                <label class="form-toggle">
+                  <input type="radio" name="sauce" value="false">
+                  <span class="form-toggle-btn">Нет</span>
+                </label>
+                
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label" for="fieldComment">Комментарий к заказу</label>
+              <textarea class="form-input form-textarea" id="fieldComment" name="comm"
+                        placeholder="Что еще сделать"></textarea>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label" for="fieldPhone">Номер телефона</label>
+              <input class="form-input" type="tel" id="fieldPhone" name="phone"
+                     placeholder="+7 (999) 000-00-00" required>
+            </div>
+
+            <div class="form-error" id="formError" aria-live="polite"></div>
+
+            <button class="form-submit" type="submit" id="formSubmit">
+              <span class="form-submit-text">Отправить заказ 🌭</span>
+              <span class="form-submit-loading" hidden>Отправляем...</span>
+            </button>
+
+          </form>
+        </div>
+        <!-- /ORDER FORM -->
+
+        <!-- POPUP -->
+        <div class="popup-overlay" id="popupOverlay" aria-hidden="true">
+          <div class="popup" role="dialog" aria-modal="true">
+            <div class="popup-emoji">🌭</div>
+            <h3 class="popup-title">Заказ принят!</h3>
+            <p class="popup-text">Мы уже готовим для вас. Скоро свяжемся.</p>
+            <button class="popup-close" id="popupClose">Закрыть</button>
+          </div>
+        </div>
+        <!-- /POPUP -->
+
+        <div class="footer-rule" role="presentation"></div>
+        <p class="footer-copy">© 2025 Мастера хот-догов. Готовим с душой.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
